@@ -7,7 +7,7 @@ import './style/app.scss';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={'/interview-test'}>
         <Layout>
           <Router/>
         </Layout>
